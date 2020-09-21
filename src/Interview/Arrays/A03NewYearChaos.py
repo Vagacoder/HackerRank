@@ -74,7 +74,7 @@
 def minimumBribes(q: list, t: int)-> int:
     sum = 0;
     n = len(q)
-    for i in range(n-1):
+    for i in range(n):
         x = q[i]
         subSum = 0
         for j in range(i+1, n):
@@ -92,7 +92,7 @@ def minimumBribes(q: list, t: int)-> int:
 def minimumBribes2(q: list, t: int)-> int:
     sum = 0;
     n = len(q)
-    for i in range(n-1):
+    for i in range(n):
         x = q[i]
         if (x - i - 1) > t:
             return -1
@@ -108,7 +108,7 @@ def minimumBribes2(q: list, t: int)-> int:
 def minimumBribes3(q: list, t: int)-> int:
     sum = 0;
     n = len(q)
-    for i in range(n-1):
+    for i in range(n):
         x = q[i]
         if (x - i - 1) > t:
             return -1
