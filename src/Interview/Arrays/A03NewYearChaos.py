@@ -66,6 +66,7 @@
 
 
 #%%
+# ! Not fully solved, all methods are time out for huge array
 
 # * Solution 1
 # ! Idea:
