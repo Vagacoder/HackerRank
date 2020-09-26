@@ -93,6 +93,12 @@
 # So, we need a minimum of 3 swaps to sort the array in ascending order. 
 
 #%%
+
+# * Solution 1
+# ! Idea:
+# ? Use one pointer from 0, (1) if element value at pointer doesn't match index, swap 
+# ? that element to its correct postion, don't move pointer, check again; (2) if 
+# ? element value at pointer matches index, move pointer to next element.
 def minimumSwaps(arr: list)-> int:
     count = 0
     n = len(arr)

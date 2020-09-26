@@ -79,6 +79,8 @@
 
 # ! Time out!
 # * Solution 1
+# ! Idea:
+# ? Brute force, do as problem description to build the array
 def arrayManipulation(n:int, queries:list)-> int:
     arr = [0]*n
     for op in queries:
